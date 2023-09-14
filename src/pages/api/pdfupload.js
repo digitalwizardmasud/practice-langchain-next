@@ -1,5 +1,5 @@
 import { PDFLoader } from "langchain/document_loaders/fs/pdf";
-import { Pinecone, PineconeClient } from "@pinecone-database/pinecone";
+import {  PineconeClient } from "@pinecone-database/pinecone";
 import { Document } from "langchain/document";
 import { OpenAIEmbeddings } from "langchain/embeddings/openai";
 import { PineconeStore } from "langchain/vectorstores/pinecone";
